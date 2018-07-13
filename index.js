@@ -168,6 +168,7 @@ Parser.prototype.parse = function (template) {
 
       break
     case 'BlockStatement':
+    case 'PartialBlockStatement':
       if (statement.program) {
         statement.program.body.reduce(isMsg, msgs)
       }
