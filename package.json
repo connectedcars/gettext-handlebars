@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "glob": "^7.1.2",
-    "handlebars": "4.0.6",
+    "handlebars": "^4.5.3",
     "pofile": "^1.0.11"
   }
 }
